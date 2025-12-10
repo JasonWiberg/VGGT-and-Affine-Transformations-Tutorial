@@ -1,8 +1,8 @@
-# Using-VGGT: Aligning Point Clouds and Improving Signle Image Inference
+# Using-VGGT and Affine Transformations on Point Clouds 
 
-Within VGGT_Tutorial.ipynb (works in colab: https://colab.research.google.com/drive/1xU7Tdr8WnSlEhEA97wclnj0CLlZR-fZl?usp=sharing), you can learn to use VGGT to generate point clouds from any set of images, and align the point clouds to specified coordinate systems that can correspond to real-world geometry. 
+Within VGGT_Tutorial.ipynb (works in colab: https://colab.research.google.com/drive/1xU7Tdr8WnSlEhEA97wclnj0CLlZR-fZl?usp=sharing), you can learn to use VGGT to generate point clouds from images, and align the point clouds to specified coordinate systems that can correspond to real-world geometry. 
 
-Then, you can try to use generative AI models like Qwen-Image_edit-2509 and specialized Loras to generate images of a scene from different angles. Use the generated images to improve VGGT inference on the original image.
+Then, you can also try to use generative AI models like Qwen-Image_edit-2509 and specialized Loras to generate images of a scene from different angles. Use the generated images to improve VGGT inference on the original image (https://colab.research.google.com/drive/18uPhhuQnRy6dLtFFJaKSQtM5YtHu-oMI?usp=sharing).
 
 
 
@@ -39,4 +39,8 @@ No post-processing / optimization required. Traditional 3D reconstruction pipeli
 VGGT outputs can serve as a general “3D backbone” for downstream tasks such as novel view synthesis, non-rigid tracking, etc. 
 
 A good project to improve VGGT point clouds further could be to somehow match the colors between images. Since the various images often have different exposure settings, saturation, etc., these differences are often visible in the point clouds. Fix this either using image editing or being able to include the 3D geometry and reference the colors of nearby points in space. 
+
+
+📄 Reference: Wang et al., "VGGT: Visual Geometry Grounded Transformer", CVPR 2025, https://arxiv.org/abs/2503.11651
+
 
