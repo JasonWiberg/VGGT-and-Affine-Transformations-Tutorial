@@ -1,4 +1,4 @@
-# Using-VGGT and Affine Transformations on Point Clouds 
+# Using VGGT and Affine Transformations on Point Clouds 
 
 Within VGGT_Tutorial.ipynb (works in colab: https://colab.research.google.com/drive/1xU7Tdr8WnSlEhEA97wclnj0CLlZR-fZl?usp=sharing), you can learn to use VGGT to generate point clouds from images, and align the point clouds to specified coordinate systems that can correspond to real-world geometry. 
 
